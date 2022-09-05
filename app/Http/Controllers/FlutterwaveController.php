@@ -28,7 +28,6 @@ class FlutterwaveController extends Controller
                 "phone_number" => request()->phone,
                 "name" => request()->name
             ],
-
             "customizations" => [
                 "title" => 'Movie Ticket',
                 "description" => "20th October"
