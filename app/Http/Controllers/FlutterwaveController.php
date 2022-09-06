@@ -41,7 +41,6 @@ class FlutterwaveController extends Controller
             // notify something went wrong
             return;
         }
-
         return redirect($payment['data']['link']);
     }
 
@@ -74,6 +73,5 @@ class FlutterwaveController extends Controller
         // Give value for the transaction
         // Update the transaction to note that you have given value for the transaction
         // You can also redirect to your success page from here
-
     }
 }
